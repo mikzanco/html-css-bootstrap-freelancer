@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-b{
+    color: black;
+}
+
+.color-w{
+    color: white;
+}
+
+.debug{
+    background-color: blue;
+    border: 1px solid red;
+}
+
+.h-card{
+    height: 260px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+header{
+    background-color: rgb(44, 62, 80);
+}
+
+.jumbotron{
+    background-color: rgb(26, 188, 156);
+    height: 590px;
+}
+
+.seconda{
+    background-color: rgb(26, 188, 156) ;
+    height: 340px;
+}
+
+footer{
+    height: 84px;
+    background-color: rgb(58, 84, 109);
+}
+
+footer .container-fluid{
+    background-color: rgb(44, 62, 80);
+}
