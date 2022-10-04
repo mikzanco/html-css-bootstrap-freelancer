@@ -44,6 +44,7 @@ h2{
 
 
 body{
+    width: 100%;
     color: black;
 }
 
@@ -67,6 +68,28 @@ header{
 .jumbotron{
     background-color: rgb(26, 188, 156);
     /* height: 490px; */
+}
+
+.img{
+    position: relative;
+}
+
+.img .bi.bi-plus-lg{
+    position: absolute;
+    display: none;
+    color: white;
+    font-size: 4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img img:hover + .bi.bi-plus-lg{
+    display: block;
+}
+
+.img img:hover{
+    filter: contrast(60%);
 }
 
 .card-img, .card-img-bottom, .card-img-top {
