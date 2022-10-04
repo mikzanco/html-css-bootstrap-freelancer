@@ -37,6 +37,11 @@
     margin: 0 auto;
 }
 
+h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 
 body{
     color: black;
@@ -61,7 +66,7 @@ header{
 
 .jumbotron{
     background-color: rgb(26, 188, 156);
-    height: 490px;
+    /* height: 490px; */
 }
 
 .card-img, .card-img-bottom, .card-img-top {
@@ -69,12 +74,17 @@ header{
     margin-top: 50px;
 }
 
-/* .cards .col{
-    height: 150px;
-} */
+.card-img, .card-img-bottom, .card-img-top:hover {
+    filter: brightness(0);
+}
 
 .about{
     background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+.btn-m{
+    margin-bottom: 10px 0;
 }
 
 .sc-form .form-control{
@@ -88,11 +98,27 @@ header{
     height: 500px;
 }
 
-footer{
-    height: 84px;
+div.left{
+    border: 1px solid white;
+    width: 10%;
+}
+
+div.star{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+footer .footer-top{
+    width: 100vw;
+    height: 120px;
     background-color: rgb(58, 84, 109);
 }
 
 footer .container-fluid{
     background-color: rgb(44, 62, 80);
+}
+
+footer .footer-bottom{
+    background-color: rgb(44, 62, 80);
+    he
 }
