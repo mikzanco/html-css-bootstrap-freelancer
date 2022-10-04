@@ -1,7 +1,22 @@
-*{
+
+/* IL RESET NON è NECESSARIO PERCHè FA TUTTO BOOTSTRAP */
+
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+.d-flex{
+    display: flex;
+}
+
+.d-block{
+    display: block;
+}
+
+.justify-cont{
+    justify-content: center;
 }
 
 .color-b{
@@ -17,24 +32,60 @@
     border: 1px solid red;
 }
 
-.h-card{
-    height: 260px;
-    margin: 20px 0;
-    border-radius: 10px;
+.mz-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+body{
+    color: black;
 }
 
 header{
     background-color: rgb(44, 62, 80);
+    height: 90px;
+}
+
+.navbar-toggler.mz-hamb{
+    border: none;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar-toggler.mz-hamb:hover .navbar-toggler-icon{
+    color: white;
 }
 
 .jumbotron{
     background-color: rgb(26, 188, 156);
-    height: 590px;
+    height: 490px;
 }
 
-.seconda{
-    background-color: rgb(26, 188, 156) ;
-    height: 340px;
+.card-img, .card-img-bottom, .card-img-top {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.cards .col{
+    height: 150px;
+}
+
+.about{
+    background-color: rgb(26, 188, 156);
+}
+
+.sc-form .form-control{
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.container  .row .sc-form{
+    color: black;
+    height: 500px;
 }
 
 footer{

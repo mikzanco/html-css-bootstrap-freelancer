@@ -4,122 +4,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    
+       
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/style.css">
     <style>
         [class^="container"], [class^="col"]{
-            background-color: rgba(161, 235, 235, 0.342);
+            /* background-color: rgba(161, 235, 235, 0.342);
             border: 1px solid black;
-            min-height: 80px;
-            text-align: center;
+            min-height: 50px;
+            text-align: center; */
 
         }
     </style>
-    <title>Bootstrap</title>
+    <title>freelancer</title>
 </head>
 <body>
 
-    <header class="color-w">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">START BOOTSTRAP</div>
-                <div class="col-4 offset-4">PORTGOLIO </div>
-            </div>
+    <header >
+        <div class="container h-100 d-flex align-items-center">
+            <nav class="navbar  w-100 navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                  <button class="navbar-toggler mz-hamb" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                    </ul>                   
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
 
     <div class="jumbotron color-w">
-        <div class="container-fluid">
+
+        <div class="container text-center">
             <div class="row">
-                <div class="col-12">img</div>
-                <div class="col-12">
-                    <h1>START BOOTSTRAP</h1>
+                <div class="col">
+                    <div class="image">
+                        <img src="img/avatar.svg" class="card-img-top" alt="...">
+                    </div> 
                 </div>
-                <div class="col-12"></div>
-                <div class="col-12">GRAPHIC ARTIST - WEB DESIGNER ILLUSTRATOR</div>
+
+        <div class="container text-center">
+            <div class="row"></div>
+                <h2 class="fs-1">START BOOTSTRAP</h2>
+                <div class="star">*</div>
+                <div class="text">GRAPHIC ARTIST - WEB DESIGNER ILLUSTRATOR</div>
+        </div>        
+               
             </div>
         </div>
         
     </div>
 
     <main>
-        <section class="prima">
-            <div class="container color-b">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>PORTFOLIO</h2>
-                    </div>
-                    <div class="col-12">
-                        
-                    </div> 
-                </div>
-                <div class="row debug">
-                    <div class="col-4 col-md-6 col-sm-12 h-card"></div>
-                    <div class="col-4 col-md-6 col-sm-12 h-card"></div>
-                    <div class="col-4 col-md-6 col-sm-12 h-card"></div>
-                    <div class="col-4 col-md-6 col-sm-12 h-card"></div>
-                    <div class="col-4 col-md-6 col-sm-12 h-card"></div>
-                    <div class="col-4 col-md-6 col-sm-12 h-card"></div>
+        <section class="portfolio">
+
+            <div class="container text-center">
+                <div class="row"></div>
+                    <h2 class="fs-1">PORTFOLIO</h2>
+                    <div class="star">*</div>       
+            </div>   
+
+            <div class="container cards">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 debug">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
                 </div>
             </div>
         </section>
         
-        <section class="seconda">
-            <div class="container color-w">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>ABOUT</h2>
-                    </div>
-                    <div class="col-12">
-                        
-                    </div> 
-                </div>
-                <div class="row ">
-                    <div class="col-6 col-sm-12 text">
-                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
-                    </div>
-                    <div class="col-6 col-sm-12 text">
-                        <p>Whether you're a student looking to showca your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                    </div>
+        <section class="about">
+
+            <div class="container text-center">
+                <div class="row"></div>
+                    <h2>ABOUT</h2>
+                    <div class="star">*</div>                
+            </div>  
+
+            <div class="mz-container ">
+                <div class="container-fluid">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col">
+                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
+                        </div>
+                        <div class="col">
+                            <p>Whether you're a student looking to showca your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        </div>
                     
+                    </div>
                 </div>
             </div>
+
+            <div class="container text-center">
+                <a href="#">BOTTONE</a>
+            </div>
+            
         </section>
 
-        <section class="terza">
+        <section class="contact">
+            <div class="container text-center">
+                <div class="row"></div>
+                    <h2>CONTACT</h2>
+                    <div class="star">*</div>                
+            </div> 
+            
             <div class="container color-b">
                 <div class="row">
-                    <div class="col-12">
-                        <h2>CONTACT ME</h2>
+                    <div class="col-8 offset-2">
+                        <form class="col-8  sc-form">
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name</label>
+                                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                              </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text"></div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="exampleFormControl1Textarea1" class="form-label">Exemple</label>
+                                <textarea class="form-control" id="exampleFormControl1Textarea1"  rows="3"></textarea>
+                            </div>
+                           
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                          </form>
                     </div>
-                    <div class="col-12">
-                        
-                    </div> 
-                </div>
-                <div class="row">
-                    <div class="col-12 ">Email Address</div>
-                    <div class="col-12 ">Name</div>
-                    <div class="col-12 ">Phone Number</div>
-                    <div class="col-12 ">Message</div>
                 </div>
             </div>
         </section>
     </main>
+
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col col-sm-12"></div>
-                <div class="col col-sm-12"></div>
-                <div class="col col-sm-12"></div>
+
+        <div class="container footer-top text-center">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">sx</div>
+                    <div class="col">c</div>
+                    <div class="col">dx</div>
+                </div>
             </div>
+            
         </div>
 
-        <div class="container-fluid">
+        <div class="container footer-bottom text-center">
             <div class="row">
                 <div class="col"></div>
-                
+                texttextext
             </div>
         </div>
     </footer>
