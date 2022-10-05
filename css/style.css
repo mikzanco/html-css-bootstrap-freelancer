@@ -44,9 +44,39 @@ h2{
 
 
 body{
-    width: 100%;
+    /* width: 100%; */
     color: black;
 }
+
+/* star */
+
+.mz-star i{
+    font-size: 30px;
+    margin: 0 2%;
+    vertical-align: middle;
+}
+
+.mz-star::before,
+.mz-star::after{
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 4px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.dark h2,
+.dark .mz-star{
+    color: rgb(44, 62, 80);
+}
+
+.dark .mz-star::before,
+.dark .mz-star::after{
+    background-color: rgb(44, 62, 80);
+}
+
+/* HEADER */
 
 header{
     background-color: rgb(44, 62, 80);
@@ -65,10 +95,22 @@ header{
     color: white;
 }
 
+/* JUMBOTRON */
+
 .jumbotron{
     background-color: rgb(26, 188, 156);
     /* height: 490px; */
 }
+
+.jumbotron .avatar{
+    width: 250px;
+}
+
+.jumbotron h2{
+
+}
+
+/* PORTFOLIO */
 
 .img{
     position: relative;
@@ -132,7 +174,7 @@ div.star{
 }
 
 footer .footer-top{
-    width: 100vw;
+    /* width: 100vw; */
     height: 120px;
     background-color: rgb(58, 84, 109);
 }
